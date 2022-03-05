@@ -18,3 +18,24 @@
   );
   color: white;
 }
+
+.footer {
+  clear: both;
+  color: purple;
+}
+
+a:link {
+  color: purple;
+}
+a:visited {
+  color: purple;
+}
+a:hover {
+  color: blue;
+}
+a:focus {
+  color: blue;
+}
+a:active {
+  color: purple;
+}
