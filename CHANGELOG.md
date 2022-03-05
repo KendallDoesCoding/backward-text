@@ -2,4 +2,4 @@
 
 ### Features
 
-- feat: reverse text webpage. ([0556283](https://github.com/KendallDoesCoding/backward-text/commit/0556283ed7b5ce2a1cbeff225f4a45bad55d4929))
+- reverse text webpage. ([0556283](https://github.com/KendallDoesCoding/backward-text/commit/0556283ed7b5ce2a1cbeff225f4a45bad55d4929))
