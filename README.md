@@ -1,5 +1,5 @@
 # backward-text
-A website with a textbox where the user needs to text, and when they tap the "Reverse" button the text reverses.
+A website with a textbox where the user needs to enter some text, for eg: a name, fruits name or any text for that matter and when they tap the "Reverse" button the text reverses.
 
 # Examples
 - Apple to elppa
