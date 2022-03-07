@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
 
 .heading {
   color: orangered;
@@ -24,6 +25,7 @@
     rgba(99, 88, 238, 1) 94.3%
   );
   color: white;
+  font-family: "Kaushan Script", cursive;
 }
 
 .footer {
