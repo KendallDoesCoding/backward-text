@@ -1,13 +1,13 @@
 .heading {
-  color: limegreen;
+  color: orangered;
 }
 
 .sub-heading {
-  color: red;
+  color: #138d75;
 }
 
 #text {
-  color: green;
+  color: #2ecc71;
 }
 
 #reverse-btn {
