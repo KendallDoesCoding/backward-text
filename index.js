@@ -1,11 +1,12 @@
-function reverseText(form) {
+function reverse(form) {
+  var str = form.rev.value;
 
-  if (form.rev.value.length == 1) {
-    console.log("Can NOT reverse one letter.");
+  if (isPalindrome(str)) {
+    console.log("Palindrome reads the same backwards as forwards");
+    return;
   }
 
   var text = "";
-  var str = form.rev.value;
 
   for (i = 0; i <= str.length; i++) {
     text = str.substring(i, i + 1) + text;
@@ -20,4 +21,13 @@ function copyReversedText() {
   var copiedText = document.getElementById("reversed-text").innerHTML
 
   navigator.clipboard.writeText(copiedText);
+}
+
+function isPalindrome(str) {
+  for (i = 0; i < str.length / 2; i++) {
+    if (str.charAt(i) != str.charAt(str.length - 1 - i)) {
+      return false;
+    }
+  }
+  return true;
 }

@@ -4,9 +4,10 @@ A website with a textbox where the user needs to enter some text, for eg: a name
 
 # Examples
 
-- Apple to elppa
-- Pear to raep
-- Banana to ananab
+- **Apple** to **elppa**
+- **Pear** to **raep**
+- **Banana** to **ananab**
+- **pseudopodia** to **aidopoduesp**
 
 # Why?
 

@@ -1,35 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Reverse text</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <center>
-      <!--- Code from https://www.roseindia.net/javascript/javascriptexamples/javascript-reverse-text-string.shtml -->
-      <h2 class="heading">Reverse text!</h2>
-      <h3 class="sub-heading">
-        You can reverse a name or any other text of your choice!
-      </h3>
-      <form>
-        <input id="text" type="text" name="rev" />
-        <input
-          id="reverse-btn"
-          type="button"
-          value="REVERSE"
-          onClick="reverseText(this.form)"
-        />
-      </form>
 
-      <p id="reversed-text"> </p>
-      <button onclick="copyReversedText()"> Copy Text</button>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reverse text</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
 
+<body>
+  <div class="container">
+    <!--- Code from https://www.roseindia.net/javascript/javascriptexamples/javascript-reverse-text-string.shtml -->
+    <h2 class="heading">Reverse text!</h2>
+    <h3 class="sub-heading">
+      You can reverse a name or any other text of your choice!
+    </h3>
+    <form>
+      <input id="text" type="text" name="rev" />
+      <input id="reverse-btn" type="button" value="REVERSE" onClick="reverse(this.form)" />
+    </form>
     <div class="footer">
-      <p> Credit to <a href="https://www.roseindia.net/javascript/javascriptexamples/javascript-reverse-text-string.shtml">roseindia.net</a> for the code! </p>
-    </center>
-  </body>
-  <script src="index.js"></script>
+      <p> Credit to <a
+          href="https://www.roseindia.net/javascript/javascriptexamples/javascript-reverse-text-string.shtml">roseindia.net</a>
+        for the code! </p>
+    </div>
+</body>
+<script src="index.js"></script>
+
 </html>
