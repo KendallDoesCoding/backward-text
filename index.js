@@ -12,13 +12,13 @@ function reverse(form) {
     text = str.substring(i, i + 1) + text;
   }
 
-  document.getElementById("reversed-text").innerHTML = text;
+  form.rev.value = text;
 }
 
 
-function copyReversedText() {
+function copyReversedText(form) {
 
-  var copiedText = document.getElementById("reversed-text").innerHTML
+  var copiedText = form.rev.value;
 
   navigator.clipboard.writeText(copiedText);
 }
