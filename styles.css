@@ -15,16 +15,18 @@
   font-size: large;
   display: flex;
   flex-direction: column;
-
+  height: 100vh;
+  background: linear-gradient(90deg, #9ebd13 0%, #008552 100%);
 }
 
 .heading {
-  color: red;
+  color: #ffcc00;
   margin: 1rem;
 }
 
 .sub-heading {
-  color: #138d75;
+  color: #a6e1fa;
+  font-weight: 500;
   margin-bottom: 1rem;
 }
 
@@ -32,9 +34,10 @@
   color: black;
   margin-bottom: 1rem;
   font-size: large;
-  border: 1px solid;
-  padding: 0.5rem;
+  border: none;
   border-radius: 10px;
+  padding: 0.5rem;
+  outline: none;
 }
 
 #reverse-btn {
@@ -43,7 +46,7 @@
       rgba(99, 88, 238, 1) 94.3%);
   color: white;
   font-family: var(--font-family);
-  border: 1px solid black;
+  border: none;
   font-size: large;
   padding: 0.5rem;
   border-radius: 10px;
@@ -56,15 +59,15 @@
 
 .footer {
   clear: both;
-  color: purple;
+  color: white;
 }
 
 a:link {
-  color: purple;
+  color: white;
 }
 
 a:visited {
-  color: purple;
+  color: white;
 }
 
 a:hover {
