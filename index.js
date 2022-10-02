@@ -12,7 +12,15 @@ function reverse(form) {
     text = str.substring(i, i + 1) + text;
   }
 
-  form.rev.value = text;
+  document.getElementById("reversed-text").innerHTML = text;
+}
+
+
+function copyReversedText() {
+
+  var copiedText = document.getElementById("reversed-text").innerHTML;
+
+  navigator.clipboard.writeText(copiedText);
 }
 
 function isPalindrome(str) {
