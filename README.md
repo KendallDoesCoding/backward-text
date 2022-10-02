@@ -21,4 +21,4 @@ I needed a website to do this, instead of doing it manually for long words, and 
 
 # Credit
 
-- Original Idea from [roseindia.net](https://www.roseindia.net/javascript/javascriptexamples/javascript-reverse-text-string.shtml), it 
+- Original Idea from [roseindia.net](https://www.roseindia.net/javascript/javascriptexamples/javascript-reverse-text-string.shtml)
