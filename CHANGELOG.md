@@ -1,3 +1,16 @@
+# [0.4.0](https://github.com/KendallDoesCoding/backward-text/compare/v0.3.0...v0.4.0) (2022-10-02)
+
+
+### Features
+
+* add copy text button and include reversed text on a new line, not overwriting what wants to be replaced ([#5](https://github.com/KendallDoesCoding/backward-text/issues/5)) ([df7f6c3](https://github.com/KendallDoesCoding/backward-text/commit/df7f6c379a4612e8c1cd6dbb1bbfbbc122164ec1))
+
+
+
+# [0.3.0](https://github.com/KendallDoesCoding/backward-text/compare/v0.2.0...v0.3.0) (2022-10-01)
+
+
+
 # [0.2.0](https://github.com/KendallDoesCoding/backward-text/compare/v0.1.5...v0.2.0) (2022-03-07)
 
 
