@@ -1,15 +1,13 @@
-function reverse(form) {
-  var str = form.rev.value;
-
-  if (isPalindrome(str)) {
+function reverse(word) {
+  if (isPalindrome(word)) {
     console.log("Palindrome reads the same backwards as forwards");
     return;
   }
 
   var text = "";
 
-  for (i = 0; i <= str.length; i++) {
-    text = str.substring(i, i + 1) + text;
+  for (i = 0; i <= word.length; i++) {
+    text = word.substring(i, i + 1) + text;
   }
 
   document.getElementById("reversed-text").innerHTML = text;
@@ -31,3 +29,10 @@ function isPalindrome(str) {
   }
   return true;
 }
+
+// form submission invokes function reverse
+document.getElementById("text-form").addEventListener("submit", (event) => {
+  event.preventDefault();
+  var str = document.getElementById("text").value
+  reverse(str)
+});
