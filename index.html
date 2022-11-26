@@ -16,16 +16,17 @@
     <h3 class="sub-heading">
       You can reverse a name or any other text of your choice!
     </h3>
-    <form>
+    <form id="text-form">
       <input id="text" type="text" name="rev" />
-      <input class="buttons" type="button" value="REVERSE" onClick="reverse(this.form)" />
+      <button class="buttons" type="submit">
+        Submit
+      </button>
+      <p id="reversed-text" class="sub-heading"></p>
 
-      <p id="reversed-text" class="sub-heading"> <!--Reversed text appears here..--></p>
-
-
-
-
-      <input class="buttons" type="button" value="COPY" onClick="copyReversedText(this.form)" />
+      <button id="copy-button" class="buttons" >
+        Copy
+      </button>
+      
     </form>
     <div class="footer">
       <p> Credit to <a
