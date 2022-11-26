@@ -15,7 +15,7 @@ I needed a website to do this, instead of doing it manually for long words, and 
 
 # Project Website
 
-[Project Website](https://backward-text.kendalldoescoding.gq)
+[Project Website](https://backward-text.kendalldoescoding.tech)
 
 [Backup URL](https://backward-text.netlify.app)
 
