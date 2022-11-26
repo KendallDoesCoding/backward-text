@@ -1,3 +1,12 @@
+## [0.4.1](https://github.com/KendallDoesCoding/backward-text/compare/v0.4.0...v0.4.1) (2022-11-26)
+
+
+### Bug Fixes
+
+* update domain ([60e0f2c](https://github.com/KendallDoesCoding/backward-text/commit/60e0f2cf9a8d0610b56c018746ddf9339de0fb1f))
+
+
+
 # [0.4.0](https://github.com/KendallDoesCoding/backward-text/compare/v0.3.0...v0.4.0) (2022-10-02)
 
 
@@ -22,15 +31,6 @@
 
 
 ## [0.1.5](https://github.com/KendallDoesCoding/backward-text/compare/v0.1.0...v0.1.5) (2022-03-07)
-
-
-
-# [0.1.0](https://github.com/KendallDoesCoding/backward-text/compare/0556283ed7b5ce2a1cbeff225f4a45bad55d4929...v0.1.0) (2022-03-05)
-
-
-### Features
-
-* eat: reverse text webpage. ([0556283](https://github.com/KendallDoesCoding/backward-text/commit/0556283ed7b5ce2a1cbeff225f4a45bad55d4929))
 
 
 
