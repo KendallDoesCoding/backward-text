@@ -11,7 +11,7 @@ A website with a textbox where the user needs to enter some text, for eg: a name
 
 # Why?
 
-I needed a website to do this, instead of doing it manually for long words, and couldn't find anything like this so I made this.
+I needed a website to reverse text, instead of reversing text manually for long words (as that would just waste time), I couldn't find anything like this so I made the reverse text website/software.
 
 # Project Website
 
