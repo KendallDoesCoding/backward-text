@@ -1,6 +1,9 @@
 function reverse(form) {
   var str = form.rev.value;
-
+  if (str === "") {
+    alert("Please enter a value first")
+    return;
+  }
   if (isPalindrome(str)) {
     console.log("Palindrome reads the same backwards as forwards");
     return;
