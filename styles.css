@@ -56,6 +56,13 @@
   transition: 0.25s all;
   color: black;
 }
+.buttons:disabled {
+  color: gray;
+
+}
+.buttons:disabled:hover {
+  color: gray;
+}
 
 .footer {
   clear: both;
