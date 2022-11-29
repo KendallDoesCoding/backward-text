@@ -57,11 +57,11 @@
   color: black;
 }
 .buttons:disabled {
-  color: gray;
+  color: #6b6b6b;
 
 }
 .buttons:disabled:hover {
-  color: gray;
+  color: #6b6b6b;
 }
 
 .footer {
