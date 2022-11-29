@@ -22,6 +22,11 @@ function reverse(form) {
   copyButton.disabled = false;
 }
 
+function stopRefresh(event) {
+  event.preventDefault();
+  var reverseButton = document.getElementById("reverse-button");
+  reverseButton.click();  
+}
 
 function copyReversedText() {
 
