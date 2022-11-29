@@ -16,9 +16,9 @@
     <h3 class="sub-heading">
       You can reverse a name or any other text of your choice!
     </h3>
-    <form>
+    <form onsubmit="stopRefresh(event)">
       <input id="text" type="text" name="rev" />
-      <input class="buttons" type="button" value="REVERSE" onClick="reverse(this.form)" />
+      <input id="reverse-button" class="buttons" type="button" value="REVERSE" onClick="reverse(this.form)" />
 
       <p id="reversed-text" class="sub-heading"> <!--Reversed text appears here..--></p>
 
