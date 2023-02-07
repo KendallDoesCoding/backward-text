@@ -50,6 +50,7 @@
   font-size: large;
   padding: 0.5rem;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .buttons:hover {
@@ -57,7 +58,8 @@
   color: black;
 }
 .buttons:disabled {
-  color: #6b6b6b;
+  color: white;
+  cursor: not-allowed;
 
 }
 .buttons:disabled:hover {
