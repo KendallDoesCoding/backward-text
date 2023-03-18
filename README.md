@@ -2,7 +2,8 @@
 
 A website with a textbox where the user needs to enter some text, for eg: a name, fruits name or any text for that matter and when they tap the "Reverse" button the text reverses.
 
-![Reverse-Demo](./assets/Reverse%20text.gif)
+<!-- ![Reverse-Demo](./assets/Reverse%20text.gif) -->
+![Reverse-Demo](./assets/reverse.gif)
 
 # Examples
 
