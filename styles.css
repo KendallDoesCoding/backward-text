@@ -50,6 +50,10 @@ html{
   padding: .8rem 3rem;
 }
 
+#get-started-btn a link {
+    color: white;
+}
+
 .btn:hover{
   background: #a9acae;
   letter-spacing: .1rem;
@@ -190,7 +194,7 @@ header .icons #menu-bars {
   color: white;
 }
 
-a:link {
+.footer a:link {
   color: rgb(16, 21, 16);
 }
 
