@@ -1,3 +1,12 @@
+## [0.6.2](https://github.com/KendallDoesCoding/backward-text/compare/v0.6.1...v0.6.2) (2025-03-15)
+
+
+### Bug Fixes
+
+* text will be shown when the text is the same when reversed ([#29](https://github.com/KendallDoesCoding/backward-text/issues/29)) ([9252c89](https://github.com/KendallDoesCoding/backward-text/commit/9252c897f46274a5113e521bb53d4e2d53703f3a))
+
+
+
 ## [0.6.1](https://github.com/KendallDoesCoding/backward-text/compare/v0.6.0...v0.6.1) (2023-03-18)
 
 
@@ -26,15 +35,6 @@
 
 
 ## [0.4.2](https://github.com/KendallDoesCoding/backward-text/compare/v0.4.1...v0.4.2) (2022-11-29)
-
-
-
-## [0.4.1](https://github.com/KendallDoesCoding/backward-text/compare/v0.4.0...v0.4.1) (2022-11-26)
-
-
-### Bug Fixes
-
-* update domain ([60e0f2c](https://github.com/KendallDoesCoding/backward-text/commit/60e0f2cf9a8d0610b56c018746ddf9339de0fb1f))
 
 
 
