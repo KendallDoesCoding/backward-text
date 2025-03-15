@@ -1,13 +1,17 @@
 function reverse(form) {
   var str = form.rev.value;
   var copyButton = document.getElementById("copy-button");
+  var resultText = document.getElementById("reversed-text");
+  
   if (str === "") {
     alert("Please enter a value first")
     copyButton.disabled = true;
     return;
   }
+
   if (isPalindrome(str)) {
     console.log("Palindrome reads the same backwards as forwards");
+    resultText.innerHTML = "This word is the same when reversed.";
     copyButton.disabled = true;
     return;
   }
@@ -18,10 +22,9 @@ function reverse(form) {
     text = str.substring(i, i + 1) + text;
   }
 
-  document.getElementById("reversed-text").innerHTML = text;
+  resultText.innerHTML = text;
   copyButton.disabled = false;
 }
-
 function stopRefresh(event) {
   event.preventDefault();
   var reverseButton = document.getElementById("reverse-button");
