@@ -25,7 +25,7 @@ backward-text is built using following technologies
 
 # Project Website
 
-[Project Website](https://backward-text.kendalldoescoding.tech)
+[Project Website](https://backward-text.kencodes.tech)
 
 [Backup URL](https://backward-text.netlify.app)
 
